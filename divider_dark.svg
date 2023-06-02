@@ -1,27 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800">
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hhhorizon-grad">
-            <stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="25%"></stop>
-            <stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hhhorizon-grad2">
-            <stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="0%"></stop>
-            <stop stop-color="hsl(0, 0%, 0%)" stop-opacity="1" offset="75%"></stop>
-        </linearGradient>
-        <clipPath id="SvgjsClipPath1011">
-            <rect width="800" height="10" x="0" y="588"></rect>
-            <rect width="800" height="9" x="0" y="612"></rect>
-            <rect width="800" height="8" x="0" y="635"></rect>
-            <rect width="800" height="7" x="0" y="659"></rect>
-            <rect width="800" height="6" x="0" y="682"></rect>
-            <rect width="800" height="5" x="0" y="706"></rect>
-            <rect width="800" height="4" x="0" y="729"></rect>
-            <rect width="800" height="3" x="0" y="753"></rect>
-            <rect width="800" height="2" x="0" y="776"></rect>
-            <rect width="800" height="1" x="0" y="800"></rect>
-        </clipPath>
-    </defs>
-    <rect width="800" height="800" fill="url(#hhhorizon-grad)"
-        clip-path="url(&quot;#SvgjsClipPath1011&quot;)"></rect>
+<svg width="800" height="213" viewBox="0 0 800 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_13_43" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="213">
+<path d="M800 0H0V10H800V0Z" fill="white"/>
+<path d="M800 24H0V33H800V24Z" fill="white"/>
+<path d="M800 47H0V55H800V47Z" fill="white"/>
+<path d="M800 71H0V78H800V71Z" fill="white"/>
+<path d="M800 94H0V100H800V94Z" fill="white"/>
+<path d="M800 118H0V123H800V118Z" fill="white"/>
+<path d="M800 141H0V145H800V141Z" fill="white"/>
+<path d="M800 165H0V168H800V165Z" fill="white"/>
+<path d="M800 188H0V190H800V188Z" fill="white"/>
+<path d="M800 212H0V213H800V212Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_13_43)">
+<path d="M800 -588H0V212H800V-588Z" fill="url(#paint0_linear_13_43)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_13_43" x1="40000" y1="-588" x2="40000" y2="79412" gradientUnits="userSpaceOnUse">
+<stop offset="0.25"/>
+<stop offset="1"/>
+</linearGradient>
+</defs>
 </svg>
