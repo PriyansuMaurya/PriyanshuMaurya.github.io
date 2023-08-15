@@ -189,3 +189,83 @@ input:checked + .slider:before {
   align-items: baseline;
   gap: 40px;
 }
+
+
+/* -------------------------------------- */
+
+/* Add transitions for smooth animations */
+body,
+a,
+h1,
+h3 {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Rest of your CSS remains unchanged */
+
+/* Add animation for the slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  transition: background-color 0.3s ease-in-out; /* Add transition for background color change */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transitions for transform and background color change */
+  border-radius: 50%;
+}
+
+/* Add animation for the mode switch */
+.slider.round.slider-mode-light:before {
+  border-radius: 50%;
+  background-color: #7856ff;
+  transform: translateX(26px);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transitions for transform and background color change */
+}
+
+.slider.round.slider-mode-dark:before {
+  border-radius: 50%;
+  background-color: #000000;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transitions for transform and background color change */
+}
+
+/* Add animation for the footer container */
+#footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  transition: gap 0.3s ease-in-out; /* Add transition for gap change */
+}
+/* Add animation for the mode container */
+#mode-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: flex-end;
+  transition: margin-top 0.3s ease-in-out; /* Add transition for margin-top change */
+}
+
+
+/* Add animation for the profile picture */
+#profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+  transition: all 0.3s ease-in-out; /* Add transition for smooth size change */
+}
