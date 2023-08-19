@@ -64,6 +64,19 @@ a:hover {
   color: #000000;
 }
 
+
+/* .dark-hover a :hover {
+  text-decoration: none;
+  background-color: #7856ff;
+  color: #000000;
+}
+
+.light-hover a :hover {
+  text-decoration: none;
+  background-color: #000000; 
+  color: #7856ff;
+} */
+
 #profile-pic {
   width: 160px;
   height: 160px;
